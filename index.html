@@ -1,63 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Coffee Bliss</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<header>
-    <h1>Coffee Bliss</h1>
-    <nav>
-        <ul>
-            <li><a href="#hero">Home</a></li>
-            <li><a href="#menu">Menu</a></li>
-            <li><a href="#about">About Us</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
-</header>
+    <!-- Header -->
+    <header>
+        <div class="logo">☕ Coffee Bliss</div>
 
-<section id="hero">
-    <h2>Fresh Coffee, Every Day</h2>
-    <p>Start your day with a perfect cup of coffee.</p>
-    <button id="orderBtn">Order Now</button>
-</section>
+        <nav>
+            <ul>
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-<section id="menu">
-    <h2>Our Menu</h2>
-    <div class="menu-item">
-        <h3>Espresso</h3>
-        <p>Strong and rich coffee.</p>
-    </div>
-    <div class="menu-item">
-        <h3>Cappuccino</h3>
-        <p>Perfect blend of coffee and milk.</p>
-    </div>
-    <div class="menu-item">
-        <h3>Latte</h3>
-        <p>Smooth and creamy coffee.</p>
-    </div>
-</section>
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="hero-content">
+            <h1>Freshly Brewed Happiness</h1>
+            <p>Experience the aroma of premium coffee every single day.</p>
 
-<section id="about">
-    <h2>About Us</h2>
-    <p>We are Coffee Bliss, serving fresh coffee with love since 2020.</p>
-</section>
+            <button id="orderBtn">Order Now</button>
+        </div>
+    </section>
 
-<section id="contact">
-    <h2>Contact</h2>
-    <p>Email: contact@coffeebliss.com</p>
-    <p>Phone: +91 98765 43210</p>
-</section>
+    <!-- Menu -->
+    <section id="menu">
+        <h2>Our Special Menu</h2>
 
-<footer>
-    <p></p>
-</footer>
+        <div class="menu-container">
 
-<script src="script.js"></script>
+            <div class="menu-card">
+                <img src="https://images.unsplash.com/photo-1510707577719-ae7c14805e3a" alt="Espresso">
+                <h3>Espresso</h3>
+                <p>Strong, bold and energizing.</p>
+                <span>₹120</span>
+            </div>
+
+            <div class="menu-card">
+                <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085" alt="Cappuccino">
+                <h3>Cappuccino</h3>
+                <p>Rich milk foam with premium coffee.</p>
+                <span>₹180</span>
+            </div>
+
+            <div class="menu-card">
+                <img src="https://images.unsplash.com/photo-1521302080371-df7d4f4b9d5f" alt="Latte">
+                <h3>Latte</h3>
+                <p>Smooth creamy texture with love.</p>
+                <span>₹160</span>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- About -->
+    <section id="about">
+        <div class="about-content">
+            <h2>About Coffee Bliss</h2>
+            <p>
+                Since 2020, Coffee Bliss has been serving handcrafted coffee
+                made from carefully selected beans. We believe coffee is not
+                just a drink — it's an experience.
+            </p>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+
+        <div class="contact-box">
+            <p>📧 contact@coffeebliss.com</p>
+            <p>📞 +91 98765 43210</p>
+            <p>📍 Chennai, Tamil Nadu</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 Coffee Bliss | Designed with ☕</p>
+    </footer>
+
+    <script src="script.js"></script>
+
 </body>
 </html>
-
